@@ -1,0 +1,47 @@
+body {
+    position: absolute;
+    top: 5%;
+    left: 29%;
+}
+
+.container{ 
+    position: relative;
+    align-items: center;
+    border: solid;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+h1{
+    position: relative;
+    left: 20%;
+}
+
+input{
+    width: 200px;
+    padding: 10px;
+    border-color: rgb(168, 66, 168);
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    border: none;
+    background-color:rgb(168, 66, 168);
+    border-radius: 4px;
+    box-shadow: 2px 2px 0px 0px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(199, 102, 199);
+    box-shadow: 2px 2px 0px 0px black;
+}

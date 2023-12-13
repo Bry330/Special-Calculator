@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <title>myCalulator</title>
+</head>
+<body>
+
+    
+    <h1>My Special Calculator</h1>
+
+    <div class="container">
+
+        <input type="text" id="max"> <input type="text" id="min"> <br>
+
+        <button id="sumar" onclick="add()">+</button>
+        <button id="restar" onclick="res()">-</button>
+        <button id="multi" onclick="multiply()">x</button>
+        <button id="div" onclick="division()">/</button><br>
+
+        
+        <button id="pou" onclick="pow()">Pow</button>
+        <button id="rout" onclick="squareRoot()">SquareRoot</button><br>
+        <button id="abs" onclick="absoluteValue()">Absolute</button>
+        <button id="ran" onclick="random()">Random</button><br>
+   
+        <h1 id="resalt">Result:</h1>
+        <input type="text" id="resultado" ><br>
+        <button id="rondo" onclick="round()">Round</button>
+        <button id="piso" onclick="floor()">floor</button>
+        <button id="ciel" onclick="ceil()">ceil</button>
+
+    </div>
+</body>
+</html>
